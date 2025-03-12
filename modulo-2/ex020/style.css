@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Normal', sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active{
+    color: aqua;
+}
