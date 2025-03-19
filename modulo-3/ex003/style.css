@@ -5,12 +5,9 @@ body {
 }
 
 table {
+    height: 400px;
     width: 400px;
     border-collapse: collapse;
-}
-
-tr.nomes {
-    background-color: gray;
 }
 
 td {

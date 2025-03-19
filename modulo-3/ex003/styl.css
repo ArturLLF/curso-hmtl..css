@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: rgb(77, 76, 76);
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color:  rgb(77, 76, 76);
+}
+
+td.numero {
+    text-align: right;
+}
