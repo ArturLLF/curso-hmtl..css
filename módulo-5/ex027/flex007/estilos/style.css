@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+div.container {
+    background-color: rgb(184, 135, 229);
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+div.item {
+    background-color: gray;
+    border: 2px solid black;
+    text-align: center;
+    padding: 50px;
+}
+
+div#it1 {
+    align-self: center;
+}
+
+div#it2 {
+
+}
+
+div#it3 {
+
+}
+
+div#it4 {
+    align-self: flex-end;
+}
+
+div#it5 {
+
+}
+
+div#it6 {
+    align-self: flex-start;
+}
+
+div#it7 {
+
+}
+
+div#it8 {
+    align-self: stretch;
+}
+
+div#it9 {
+
+}
+
+div#it10 {
+    align-self: self-end;
+}

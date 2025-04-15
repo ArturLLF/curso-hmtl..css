@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+div.container {
+    background-color: rgb(184, 135, 229);
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    background-color: gray;
+    border: 2px solid black;
+    text-align: center;
+    flex-basis: 150px;
+}
+
+div#it1 {
+    align-self: center;
+}
+
+div#it2 {
+
+}
+
+div#it3 {
+
+}
+
+div#it4 {
+    align-self: flex-end;
+}
+
+div#it5 {
+
+}
+
+div#it6 {
+    align-self: flex-start;
+}
+
+div#it7 {}
