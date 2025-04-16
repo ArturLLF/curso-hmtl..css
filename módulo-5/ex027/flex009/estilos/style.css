@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+div.container {
+    background-color: rgb(184, 135, 229);
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    background-color: gray;
+    border: 2px solid black;
+    text-align: center;
+    flex-basis: 200px;
+}
+
+div#it1 {
+    /* flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 200px; */
+    flex: 1 0 200px;
+}
+
+div#it2 {
+    /* flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 200px; */
+    flex: 1 1 200px;
+}
+
+div#it3 {
+    /* flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: auto; */
+    flex: 1 0 auto;
+}
